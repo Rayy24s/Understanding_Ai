@@ -29,7 +29,7 @@
 
 #navbar-logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, red, orange);
+    
     background-size: 100%;
     background-clip: border-box;
     -webkit-background-clip: text;
@@ -38,6 +38,7 @@
     -moz-text-fill-color: transparent;
     align-items: center;
     cursor: pointer;
+    display: flex;
     text-decoration : none;
     font-size: 2rem;
 }
@@ -267,4 +268,40 @@
     .nav-menu.active {
         left: 0;
     }
+}
+
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.page-content {
+    flex: 1;
+}
+
+.footer {
+    background-color: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    
+
+}
+
+.footer_text {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
 }
