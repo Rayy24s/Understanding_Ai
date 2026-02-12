@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Understanding The Hidden Cost Behind AI</title>
     <link rel="stylesheet" href="html.css">
 </head>
 
 <body>
-    <div class="page-content">
+
+<div class="page-content">
+
+    <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar-container">
-            <a href="#" id="navbar-logo">AI INSIGHT</a>
-            <div class="navbar__toggle" id="mobile-menu" aria-label="Menu" aria-expanded="false">
+            <a href="/index.html" id="navbar-logo">AI INSIGHT</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </div>
+
             <ul class="nav-menu">
                 <li class="navbar-item"><a href="/index.html" class="nav-links">Home</a></li>
                 <li class="navbar-item"><a href="#about" class="nav-links">About Us</a></li>
@@ -29,48 +32,59 @@
         </div>
     </nav>
 
+<!-- Main Content -->
+<div class="main">
+    <div class="main__container">
 
-    <div class="main">
-        <div class="main__container">
-            <div class="main__content">
-                <h1 class="main__title">Understanding The Hidden Cost Behind AI</h1>
-                <p class="main__description"> Explore the environmental and economic impacts of artificial intelligence technologies.</p>
-                
-               <div class="main_buttons"> 
+        <h1 class="main__title">Title</h1>
 
-                    <a href="html/ene.html" class="main_btn">
-                    <span class="btn-title">Chat GPT ⚡</span>
-                    <p>The data centers used to train and operate these models require vast amounts of electricity. 
-                        GPT-4, for example, required over 50 gigawatt-hours, approximately 0.02% of the electricity California generates in a year, 
-                        and 50 times the amount it took to train GPT-3, the previous iteration. As AI proliferates across industries, this energy demand will only grow. 
-                        When AI is used to optimize energy-intensive manufacturing, which will need experimentation and more data, this problem will grow further.
-                       Data centers and their associated transmission networks have become a primary driver of global energy consumption. 
-                       At present, this accounts for 3% of global consumption, emitting as much CO2 as Brazil. Increasing energy requirements show no sign of slowing down either, 
-                       as consumption could grow from 460 terawatt-hours in 2022 to 1000 twh in 2026. In the United States alone, 
-                       the increase in power demand due to data center demand is expected to rise from 200 twh as of 2022 to 260 twh in 2026, 
-                       equivalent to 6% of all power use across the country. Now, data centers’ energy demands are expected to double by 2030.</p>
-                    </a>
-                    
+        <div class="main_btn">
 
+            <!-- PAGE 1 -->
+            <div class="content-page active" id="page1">
+                <h2 class="card-title">ChatGPT & Energy Consumption</h2>
+                <img src="html_photos/folder.png" class="card-image">
 
-
-               </div>
-                
+                <div class="card-text">
+                    <p>Training large AI models requires vast amounts of electricity.</p>
+                    <p>Data centers now account for roughly 3% of global energy use.</p>
+                </div>
             </div>
-                
+
+            <!-- PAGE 2 -->
+            <div class="content-page" id="page2">
+                <h2 class="card-title">Economic Impact of AI</h2>
+                <img src="photos/money.png" class="card-image">
+
+                <div class="card-text">
+                    <p>AI is reshaping global labour markets.</p>
+                    <p>Some sectors may experience job displacement.</p>
+                </div>
+            </div>
+
+            <!-- Arrows -->
+            <button class="page-arrow left-arrow" onclick="prevPage()">&#8592;</button>
+            <button class="page-arrow right-arrow" onclick="nextPage()">&#8594;</button>
+
         </div>
+
     </div>
   </div>
+</div>
 
-<!-- Footer Section -->
-    <div class="footer"> 
-        <p class="footer_text">© 2025 AI INSIGHT. All rights reserved.</p>
-        
-    
-    
-    
- <script src="app.js"></script>
 
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <p class="footer_text">© 2025 AI INSIGHT. All rights reserved.</p>
+</footer>
+
+<script src="html.js"></script>
 </body>
-
 </html>
