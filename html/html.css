@@ -106,9 +106,18 @@
     height: auto;
 }
 
+.card-image-2 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 200px;
+    height: auto;
+}
+
+
 /* TEXT */
 .card-text {
-    max-width: 750px;
+    max-width: 700px;
 }
 
 .card-text p {
@@ -180,6 +189,12 @@
     }
 
     .card-image {
+        position: static;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .card-image-2 {
         position: static;
         display: block;
         margin: 20px auto;
