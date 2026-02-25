@@ -1,16 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Understanding The Hidden Cost Behind AI</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="html.css">
 </head>
 
-<body> 
-<p>Cost</p>
-</body>
+<body>
 
+<div class="page-content">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/index.html" id="navbar-logo">AI INSIGHT</a>
+
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="navbar-item"><a href="/index.html" class="nav-links">Home</a></li>
+                <li class="navbar-item"><a href="/reference.html" class="nav-links">References</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+
+<!-- Main Content -->
+<div class="main">
+    <div class="main__container">
+
+        <h1 class="main__title">Cost</h1>
+
+        <div class="main_btn">
+
+            <!-- PAGE 1 -->
+            <div class="content-page active" id="page1">
+                <h2 class="card-title">AI's Financial Cost</h2>
+                <img src="html_photos/dollar.jpg" class="card-image">
+
+                <div class="card-text">
+                    <p>The financial cost of AI is often underestimated<p>
+                    <p>While companies such as OpenAI and Nvidia report record growth, the scale of spending is unprecedented.<p>
+                    <p>Open AI’s CEO Sam Altman has stated that OpenAI’s revenues exceeded $13bn in 2025. And it would be remiss to not also metion that OpenAI in particular is burning money just as quickly.<p>
+                    <p>Reports indicate that Microsoft had made funding commitments to OpenAI of approximately $13bn in which the majority has already been funded.<p>
+                    <p>These same disclosures report also that OpenAI lost $12bn in the last quarter.<p>
+                    <p> Meanwhile, AI-related stocks now represent a substantial share of major stock market according to the bank of England “AI stocks now account for roughly 44% of the S&P market capitalisation” meaning the gambling mindset tech companies are operating with in this current market will almost certainly fall on the everyday investors if the situation goes awry.<p>
+
+                </div>
+            </div>
+
+            <!-- PAGE 2 -->
+            <div class="content-page" id="page2">
+                <h2 class="card-title">AI Arms Race</h2>
+                <img src="html_photos/race.jpg" class="card-image-2">
+
+                <div class="card-text">
+                    <p>The phrase “AI Arms Race” reflects intense competition between technology companies and increasingly between nations to develop the most advanced systems.<p>
+                    <p>This competition serves two primary goals:  keep investors happy and continue to secure market dominance.<p>
+                    <p> However, AI technologies are also being integrated into military systems. Autonomous drones capable of identifying and striking targets with the touch of a button raises ethical and legal questions. If the system makes an error who bears the responsibility the developer, the operator or the deploying state?<p>
+                    <p>Similar concerns arise with self-driving cars get into accidents.  Tesla’s self-driving models have caused over 41 fatal crashes in the past decade, stressing that as automation expands into high-stakes domains, accountability frameworks must evolve alongside it.<p>
+
+                </div>
+            </div>
+
+            <!-- Arrows -->
+            <button class="page-arrow left-arrow" onclick="prevPage()">&#8592;</button>
+            <button class="page-arrow right-arrow" onclick="nextPage()">&#8594;</button>
+
+        </div>
+    </div>
+  </div>
+</div>
+
+<script src="html.js"></script>
+</body>
 </html>

@@ -36,6 +36,8 @@
 .nav-menu {
     display: flex;
     list-style: none;
+    align-items: center;
+    text-align: center;
 }
 
 .nav-links {
@@ -100,17 +102,17 @@
 /* IMAGE */
 .card-image {
     position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 200px;
+    top: 50px;
+    right: 10px;
+    width: 250px;
     height: auto;
 }
 
 .card-image-2 {
     position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 200px;
+    top: 50px;
+    right: 10px;
+    width: 250px;
     height: auto;
 }
 
